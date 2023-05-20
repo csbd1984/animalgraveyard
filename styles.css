@@ -44,7 +44,7 @@ body {
 .cattle-graveyard {
     width: 200px;
     height: 200px;
-    background-image: url(cattle_graveyard.jpg); /* Replace with your cattle graveyard image */
+    background-image: url(./cattle_graveyard.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -52,7 +52,7 @@ body {
 .pig-graveyard {
     width: 200px;
     height: 200px;
-    background-image: url(pig_graveyard.jpg); /* Replace with your pig graveyard image */
+    background-image: url(./pig_graveyard.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -60,7 +60,7 @@ body {
 .chicken-graveyard {
     width: 200px;
     height: 200px;
-    background-image: url(chicken_graveyard.jpg); /* Replace with your chicken graveyard image */
+    background-image: url(./chicken_graveyard.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }

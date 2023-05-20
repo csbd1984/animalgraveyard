@@ -20,7 +20,7 @@ const currentPageURL = window.location.pathname;
 
 // Animate the cattle graveyard if it's the current page
 if (currentPageURL.includes('cattle.html')) {
-    animateGraveyard('cattle-graveyard', cattleSlaughterRate);
+    animateGraveyard('kettle-graveyard', cattleSlaughterRate);
 }
 
 // Animate the chicken graveyard if it's the current page
