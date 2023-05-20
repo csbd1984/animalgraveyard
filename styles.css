@@ -1,53 +1,84 @@
+Certainly! Here's an updated CSS code that includes separate styles for each animal page:
+
+```css
+/* General Styles */
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.menu {
+  background-color: #f1f1f1;
+  padding: 10px;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.menu a:hover {
+  background-color: #ddd;
 }
 
-main {
-    padding: 20px;
+/* Cattle Page Styles */
+
+.cattle {
+  background-color: #f9f9f9;
 }
 
-.graveyard-section {
-    margin-bottom: 50px;
+.cattle h1 {
+  text-align: center;
 }
 
-.graveyard-container {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
+.cattle-graveyard {
+  margin: 20px auto;
+  background-image: url(cattle_graveyard.jpg); /* Replace with your cattle graveyard image */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.graveyard {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(placeholder.jpg);
-    background-repeat: repeat;
-    background-size: contain;
+/* Pig Page Styles */
+
+.pig {
+  background-color: #f9f9f9;
 }
+
+.pig h1 {
+  text-align: center;
+}
+
+.pig-graveyard {
+  margin: 20px auto;
+  background-image: url(pig_graveyard.jpg); /* Replace with your pig graveyard image */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Chicken Page Styles */
+
+.chicken {
+  background-color: #f9f9f9;
+}
+
+.chicken h1 {
+  text-align: center;
+}
+
+.chicken-graveyard {
+  margin: 20px auto;
+  background-image: url(chicken_graveyard.jpg); /* Replace with your chicken graveyard image */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+```
+
