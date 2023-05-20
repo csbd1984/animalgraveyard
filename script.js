@@ -1,4 +1,4 @@
-// Define the animal slaughter rates in graves per second
+// Define the animal slaughter rates in graves per second 
 const cattleSlaughterRate = 1 / 5; // 1 grave every 5 seconds
 const pigGraveRate = 47 / 1; // 1 grave every 0.021 seconds
 const chickenGraveRate = 2200 / 1; // 1 grave every 0.00045 seconds
